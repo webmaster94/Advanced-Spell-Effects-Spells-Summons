@@ -1,0 +1,38 @@
+{   
+	"name": "ASe-Items",   
+	"title": "ASe Summons/Spells",   
+	"description": "Imports pre-configured Advanced Spell Effects spells and summons as compedia.",   
+	"author": "Gage Eakins",
+	"version": "1.0.0",
+	"minimumCoreVersion": "0.9.0",
+	"compatibleCoreVersion":"0.9",
+	"dependencies": [
+		{
+		"name": "compendium-folders", "type": "module"
+		},
+		{
+		"name": "advancedspelleffects", "type": "module"
+		}
+	],
+	"url": "https://github.com/webmaster94/Advanced-Spell-Effects-Spells-Summons",
+	"mainfest": "https://github.com/webmaster94/Advanced-Spell-Effects-Spells-Summons/releases/latest/download/module.json",
+	"download": "https://github.com/webmaster94/Advanced-Spell-Effects-Spells-Summons/releases/latest/download/ASe-Items.zip",
+	"packs": [
+		{
+		"name": "ASe Spells",
+		"label": "ASE Spells",
+		"path": "packs/ase-spells.db",
+		"entity": "Item",
+		"system": "dnd5e",
+		"module": "ASe-Items"
+		},
+		{
+		"name": "ASe Summons",
+		"label": "ASE Summons",
+		"path": "packs/ase-summons.db",
+		"entity": "Item",
+		"system": "dnd5e",
+		"module": "ASe-Items"
+		}
+	]
+ }
