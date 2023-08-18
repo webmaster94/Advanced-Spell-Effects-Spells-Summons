@@ -30,7 +30,7 @@
             "name": "ASE Spells",
             "label": "ASE Spells",
             "path": "packs/ase-spells.db",
-            "entity": "Item",
+            "type": "Item",
             "system": "dnd5e",
             "module": "ASE-Items"
         },
@@ -38,7 +38,7 @@
             "name": "ASE Summons",
             "label": "ASE Summons",
             "path": "packs/ase-summons.db",
-            "entity": "Actor",
+            "type": "Actor",
             "system": "dnd5e",
             "module": "ASE-Items"
         }
